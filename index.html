@@ -26,7 +26,23 @@
     p.subtitle {
       font-size: 1.2rem;
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0 auto 30px auto;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 30px auto 10px auto;
+    }
+
+    .image-row img {
+      width: 320px;
+      max-width: 90%;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.18);
     }
 
     .hero {
@@ -94,6 +110,12 @@
 <body>
   <header>
     <h1>Dino Mahjong Discovery</h1>
+
+    <div class="image-row">
+      <img src="5035090934378466230.jpg" alt="Imagem do jogo Dino Mahjong Discovery 1">
+      <img src="5035090934378466229.jpg" alt="Imagem do jogo Dino Mahjong Discovery 2">
+    </div>
+
     <p class="subtitle">
       Um jogo divertido de mahjong com temática de dinossauros, combinando estratégia,
       descoberta e uma aventura jurássica cheia de personalidade.
