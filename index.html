@@ -40,7 +40,8 @@
 
     .image-row img {
       width: 320px;
-      max-width: 90%;
+      max-width: 100%;
+      height: auto;
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.18);
     }
@@ -105,6 +106,28 @@
     .button:hover {
       background: #244824;
     }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p.subtitle {
+        font-size: 1rem;
+      }
+
+      header {
+        padding: 40px 15px 20px;
+      }
+
+      .hero {
+        padding: 10px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -145,7 +168,7 @@
     <div class="card">
       <h2>Privacidade</h2>
       <p>
-        Este jogo pode utilizar serviços como anúncios para manter a experiência gratuita.
+        Este jogo utiliza anúncios para ajudar a manter a experiência gratuita.
         Para mais informações, consulte nossa política de privacidade.
       </p>
       <a class="button" href="privacy.html">Ver Política de Privacidade</a>
