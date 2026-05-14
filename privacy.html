@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Dino Mahjong Discovery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f8f2;
+      color: #1f2d1f;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      color: #2f5d2f;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #2f5d2f;
+      margin-top: 28px;
+    }
+
+    a {
+      color: #1d4e89;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .lang-switch {
+      margin-bottom: 20px;
+      text-align: right;
+      font-size: 0.95rem;
+    }
+  </style>
+  <script>
+    const userLang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+    const params = new URLSearchParams(window.location.search);
+    const forcedLang = params.get("lang");
+
+    if (!forcedLang && userLang.startsWith("pt") && !window.location.pathname.endsWith("privacy-pt.html")) {
+      window.location.replace("privacy-pt.html");
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      <a href="privacy.html">English</a> | <a href="privacy-pt.html">Português</a>
+    </div>
+
+    <h1>Privacy Policy – Dino Mahjong Discovery</h1>
+
+    <p>
+      This Privacy Policy describes how the game <strong>Dino Mahjong Discovery</strong>
+      may collect and use limited information necessary for its operation,
+      performance analysis, and ad display.
+    </p>
+
+    <h2>Data that may be collected</h2>
+    <p>
+      The application may collect technical device information, device identifiers,
+      and app usage data when necessary for operation, stability, and monetization.
+    </p>
+
+    <h2>Advertising</h2>
+    <p>
+      This application uses <strong>Google AdMob</strong> to display ads.
+      Google AdMob may process certain technical data and device identifiers
+      to provide, measure, and improve the ads shown in the application.
+    </p>
+
+    <h2>Purpose of information use</h2>
+    <ul>
+      <li>Display ads in the application;</li>
+      <li>Measure performance and stability;</li>
+      <li>Improve user experience.</li>
+    </ul>
+
+    <h2>Sensitive personal data</h2>
+    <p>
+      The application does not require account creation and does not intentionally collect sensitive personal data.
+    </p>
+
+    <h2>Third-party services</h2>
+    <p>
+      Data processed by services used in the application follows the policies and practices
+      of their respective providers, including Google AdMob.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      If you wish to contact us regarding this Privacy Policy, please email:
+      <a href="mailto:joancefet@gmail.com">joancefet@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      Last updated: 03/26/2026
+    </div>
+  </div>
+</body>
+</html>
