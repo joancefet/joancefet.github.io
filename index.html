@@ -173,6 +173,18 @@
       color: #fff;
     }
 
+    .btn-store {
+      background: linear-gradient(135deg, var(--accent-2), #ffcf7a);
+      color: #23170a;
+      box-shadow: 0 12px 30px rgba(247, 177, 74, 0.22);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.14);
+      color: #fff;
+    }
+
     .hero-card {
       position: relative;
       min-height: 440px;
@@ -289,6 +301,12 @@
       background: rgba(0,0,0,0.25);
     }
 
+    .pill-dev {
+      background: rgba(247, 177, 74, 0.16);
+      border-color: rgba(247, 177, 74, 0.25);
+      color: #ffd28c;
+    }
+
     .game-card h3 {
       margin: 0 0 10px;
       font-size: 1.8rem;
@@ -356,6 +374,13 @@
       width: 100%;
       height: auto;
       display: block;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 22px;
     }
 
     .about-card {
@@ -470,7 +495,7 @@
 
           <div class="hero-actions">
             <a class="btn btn-primary" href="#games">Explore our games</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/company/lopes-games" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
 
@@ -492,7 +517,7 @@
         <h2 class="section-title">Our Games</h2>
         <p class="section-subtitle">
           Lopes Games is currently presenting two different projects: a family-friendly
-          casual mobile puzzle experience and a darker original strategic concept with a modern warfare theme.
+          casual mobile puzzle experience and an original strategic card game concept with a modern warfare theme.
         </p>
 
         <div class="games-grid">
@@ -527,6 +552,12 @@
                   <img src="dino-mahjong-screen3.jpeg" alt="Dino Mahjong Discovery screenshot 3">
                 </div>
               </div>
+
+              <div class="card-actions">
+                <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.LOPES.DinoMahjongDiscovery" target="_blank" rel="noopener noreferrer">
+                  Download on Google Play
+                </a>
+              </div>
             </div>
           </article>
 
@@ -534,6 +565,7 @@
             <div class="game-cover conflict">
               <div class="game-cover-content">
                 <div class="pill">Strategy Card Game Concept</div>
+                <div class="pill pill-dev">In Development</div>
                 <h3>Conflict Protocol TCG</h3>
                 <p>
                   A modern warfare-inspired trading card game concept focused on tactical decisions,
@@ -551,7 +583,7 @@
               </ul>
 
               <p style="color: var(--muted); line-height: 1.7; margin: 0;">
-                Conflict Protocol TCG represents Lopes Games’ broader creative direction:
+                Conflict Protocol TCG is currently in development and represents Lopes Games’ broader creative direction:
                 projects with stronger thematic identity, deeper systems, and a cinematic tone.
               </p>
 
